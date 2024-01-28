@@ -9,8 +9,7 @@ public class SumRecursion {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(bufferedReader.readLine());
-        int sum = sum(N);
-        System.out.println(sum);
+        System.out.println(sum(N));
     }
 
     private static int sum(int n) {
